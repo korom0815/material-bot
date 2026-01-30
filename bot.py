@@ -99,4 +99,6 @@ async def reset(ctx, *, item_name):
     await ctx.send(f"🗑 {item_name} のカウントをリセットしました")
 
 
-bot.run("MTQ2NjY0MzAyMDg0MDQzOTkxMg.G0GM0q.6vV0esqz4FZz38mcjZplGPQCtXK0yALz_OFXas")
+
+import os
+bot.run(os.getenv("TOKEN"))
